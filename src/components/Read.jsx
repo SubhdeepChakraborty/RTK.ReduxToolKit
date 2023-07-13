@@ -64,7 +64,7 @@ const Read = () => {
         </>
       ) : (
         <>
-          <div className="grid grid-cols-4 gap-2 ml-[1rem] mr-[1rem]">
+          <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-2 ml-[1rem] mr-[1rem]">
             {users
               ?.filter((ele) => {
                 if (searchData.length === 0) {
