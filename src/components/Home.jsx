@@ -4,7 +4,7 @@ import Create from "./Create";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <div className="mt-[5rem] w-full flex items-center justify-center">
         <Create />
