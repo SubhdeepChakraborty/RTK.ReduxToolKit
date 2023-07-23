@@ -29,7 +29,7 @@ const Navbar = () => {
           <span className="font-semibold">All Post</span>
         </Link>
       </div>
-      <div>
+      <div className="hidden sm:block">
         <input
           type="text"
           placeholder="Search.."
