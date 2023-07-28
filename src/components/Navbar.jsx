@@ -15,7 +15,7 @@ const Navbar = () => {
   console.log(search);
 
   return (
-    <div className="flex items-center justify-evenly bg-white w-[100vw] h-[70px]">
+    <div className="flex items-center justify-evenly  w-[100vw] h-[70px]">
       <div>
         <span className="font-bold text-2xl">RTK</span>
       </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="Search.."
-          className="p-[2px] px-1 rounded outline-none border-none "
+          className="p-[2px] px-1 bg-slate-700 text-white rounded outline-none border-none "
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>

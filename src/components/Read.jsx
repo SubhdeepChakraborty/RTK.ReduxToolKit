@@ -18,7 +18,7 @@ const Read = () => {
   const [radioData, setRadio] = useState("");
 
   return (
-    <div className="bg-white ">
+    <div className="">
       <Navbar />
 
       <div className="w-[100vw] flex items-center justify-center p-3">
@@ -108,13 +108,17 @@ const Read = () => {
                   </div>
                   <div>
                     <button
-                      className="absolute right-2 rounded px-1  font-semibold bg-red-600 text-white"
+                      className="absolute right-2 rounded px-1  font-semibold
+                      text-sm bg-red-600 text-white"
                       onClick={() => dispatch(deleteUser(item.id))}
                     >
                       Delete
                     </button>
                     <Link to={`/edit/${item.id}`}>
-                      <button className="absolute right-2 top-2 rounded px-1  font-semibold bg-blue-600 text-white">
+                      <button
+                        className="absolute right-2 top-2 rounded px-1  
+                      text-sm  bg-blue-600 text-white"
+                      >
                         Edit
                       </button>
                     </Link>
