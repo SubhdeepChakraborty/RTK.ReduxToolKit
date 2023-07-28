@@ -36,14 +36,15 @@ const Create = () => {
               type="text"
               name="name"
               onChange={create}
-              className="w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
+              className=" bg-slate-700 text-black font-semibold font-semibold  w-[350px] p-2 px-1 mb-[1rem] outline-none 
+              rounded-md border-b-2 border-b-gray-950"
             />
             <input
               placeholder="email"
               type="text"
               name="email"
               onChange={create}
-              className="w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
+              className=" bg-slate-700 text-black font-semibold  w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
             />
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -52,23 +53,26 @@ const Create = () => {
               name="age"
               type="text"
               onChange={create}
-              className="w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
+              className=" bg-slate-700 text-black font-semibold  w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
             />
             <select
               onChange={create}
               name="gender"
-              className="w-[350px] p-2 px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
+              className="w-[350px] p-2 bg-slate-700 text-white font-semibold px-1 mb-[1rem] outline-none rounded-md border-b-2 border-b-gray-950"
             >
               <option>Type</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
             </select>
             <input
-              className="w-[350px] p-2 px-1 outline-none mb-[1rem] border-b-2 rounded-md border-b-gray-950"
+              className="w-[350px] p-2 px-1 bg-slate-700 text-black font-semibold outline-none mb-[1rem] border-b-2 rounded-md border-b-gray-950"
               placeholder="address"
               name="address"
               onChange={create}
               type="text"
+              bg-slate-700
+              text-black
+              font-semibold
             />
           </div>
         </div>
